@@ -149,58 +149,58 @@ docker run -it --rm -v ~/pyiri_output:/app/output pyiridocker \
 Parameter Options
 Location Parameters
 
---lat: Latitude (-90 to 90)
---lon: Longitude (-180 to 180)
---global-map: Generate global map instead of single location
---resolution: Grid resolution for global maps (degrees, default: 5.0)
+`--lat`: Latitude (-90 to 90)<br>
+`--lon`: Longitude (-180 to 180)<br>
+`--global-map`: Generate global map instead of single location<br>
+`--resolution`: Grid resolution for global maps (degrees, default: 5.0)<br>
 
 Time Parameters
 
---year: Year (default: 2020)
---month: Month (1-12, default: 4)
---day: Day (1-31, default: 15)
---hour: Hour UTC (0-23, default: 12)
+`--year`: Year (default: 2020)<br>
+`--month`: Month (1-12, default: 4)<br>
+`--day`: Day (1-31, default: 15)<br>
+`--hour`: Hour UTC (0-23, default: 12)<br>
 
 Solar Activity
 
---f107: F10.7 solar flux index (default: 100)
+`--f107`: F10.7 solar flux index (default: 100)<br>
 
-Low activity: 70
-Medium activity: 100-150
-High activity: 200+
+Low activity: 70<br>
+Medium activity: 100-150<br>
+High activity: 200+<br>
 
 Output Parameters
 
---parameters: Space-separated list of parameters to plot
+`--parameters`: Space-separated list of parameters to plot<br>
 
-foF2: F2 critical frequency
-hmF2: F2 peak height
-NmF2: F2 peak density
-Use all for all parameters
+foF2: F2 critical frequency<br>
+hmF2: F2 peak height<br>
+NmF2: F2 peak density<br>
+Use all for all parameters<br>
 
 Processing Modes
 
---daily: Use daily parameters (enables electron density profiles)
---profiles: Create electron density profile plots
---vtec: Calculate and plot vertical Total Electron Content
+`--daily`: Use daily parameters (enables electron density profiles)<br>
+`--profiles`: Create electron density profile plots<br>
+`--vtec`: Calculate and plot vertical Total Electron Content<br>
 
 Output
 
---output: Output directory (default: /app/output)
+`--output`: Output directory (default: /app/output)<br>
 
 Output Files
 The script generates PNG files with names following this pattern:
 
-Single location: {parameter}_{lat}N_{lon}E_{timestamp}.png
-Global maps: {parameter}_Global_{resolution}deg_{timestamp}.png
-Time series: timeseries_{location}_{timestamp}.png
-Profiles: profiles_{location}_{timestamp}.png
-vTEC: vTEC_{location}_{timestamp}.png
+Single location: {parameter}_{lat}N_{lon}E_{timestamp}.png<br>
+Global maps: {parameter}_Global_{resolution}deg_{timestamp}.png<br>
+Time series: timeseries_{location}_{timestamp}.png<br>
+Profiles: profiles_{location}_{timestamp}.png<br>
+vTEC: vTEC_{location}_{timestamp}.png<br>
 
 Tips
 
-Start with low resolution (10-15°) for global maps to test quickly
-Use --daily mode to enable electron density profiles and vTEC
-The --profiles flag requires --daily to be set
-Higher F10.7 values represent more active solar conditions
-Processing time increases significantly with resolution and when using --daily mode
+Start with low resolution (10-15°) for global maps to test quickly<br>
+Use `--daily` mode to enable electron density profiles and vTEC<br>
+The `--profiles` flag requires `--daily` to be set<br>
+Higher F10.7 values represent more active solar conditions<br>
+Processing time increases significantly with resolution and when using `--daily` mode<br>
