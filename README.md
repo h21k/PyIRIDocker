@@ -1,4 +1,4 @@
-<img width="200" height="200" src="https://.png" alt="Black circle " title="PyIRI Logo" style="float:left;">
+<img width="200" height="200" src="https://roosevelt.devron-systems.com/pyiridocker.png" alt="" title="PyIRIDocker Logo" style="float:left;">
 
 # PyIRIDocker 
 A docker version of PyIRI - A Python implementation of the International Reference Ionosphere (IRI) model that evaluates the electron density and associated ionospheric parameters on the entire given global grid and for the entire day simultaneously.
