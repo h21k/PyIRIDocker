@@ -44,6 +44,9 @@ docker run -it angrycoffeemonster/pyiridocker:101
 git clone https://github.com/h21k/PyIRIDocker.git
 cd PyIRIDocker
 docker build -t pyiridocker .
+
+# make the directory to store the ouput files outside the docker container:
+mkdir ~/pyiri_output #in MAC this will make a directory called pyiri_output in the root user directory that we pass below
 ```
 
 ## Helpfile
