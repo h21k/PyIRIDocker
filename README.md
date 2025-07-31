@@ -16,12 +16,17 @@ PyIRI info:<br>
 
 ## 2025 NASA Heliolab Ionosphere - Thermosphere Team<br> 
 
-[Thomas Trikalinos](https://vivo.brown.edu/display/ttrikali) Center for Evidence-based Medicine, Brown University, Providence, USA<br>
-[Joel Kuiper](https://joelkuiper.eu/) Vortext Systems, Groningen, Netherlands<br>
-[Randolph G Bias](https://www.ischool.utexas.edu/~rbias/site/) School of Information, University of Texas at Austin, Austin, USA<br>
-[Byron C Wallace](http://www.byronwallace.com/) College of Computer and Information Science, Northeastern University, Boston, USA<br>
-[Iain J Marshall](https://kclpure.kcl.ac.uk/portal/iain.marshall.html) School of Population Health and Life Sciences, King's College London, London, UK<br>
-[Frank Soboczenski](https://h21k.github.io/) School of Population Health and Life Sciences, King's College London, London, UK [PyIRIDocker Author] <br>
+[Linnea Wolniewicz](https://link) University of Hawaii at Manoa, USA<br>
+[Simone Mestici](https://link) Sapienza University of Rome<br>
+[Hail S. Kelebek](https://link) University of Oxford<br>
+[Michael Vergalla](http://link) Free Flight Research Lab, USA<br>
+[Giacomo Acciarini](http://link) European Space Agency & University of Surrey<br>
+[Bala Poduval](http://link) Space Science Institut, USA<br>
+[Umaa Rebbapragada](http://link) NASA Jet Propulsion Laboratory, California Institute of Technology, USA<br>
+[Olga P Verkhoglyadova](http://link) NASA Jet Propulsion Laboratory, California Institute of Technology, USA<br>
+[Tom Berger](http://link) University of Colorado at Boulder<br>
+[Atilim Günes Baydin](https://link) University of Oxford<br>
+[Frank Soboczenski](https://h21k.github.io/) Department of Computer Science, University of York & SPHES, King's College London, UK<br>
 
 ## Structure of the repository
 
@@ -46,7 +51,8 @@ cd PyIRIDocker
 docker build -t pyiridocker .
 
 # make the directory to store the ouput files outside the docker container:
-mkdir ~/pyiri_output #in MAC this will make a directory called pyiri_output in the root user directory that we pass below
+#in MAC this will make a directory called pyiri_output in the root user directory that we pass below
+mkdir ~/pyiri_output 
 ```
 
 ## Helpfile
