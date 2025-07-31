@@ -16,6 +16,8 @@ PyIRI info:<br>
 
 ## 2025 NASA Heliolab Ionosphere - Thermosphere Team<br> 
 
+more info tba<br>
+
 [Linnea Wolniewicz](https://link) University of Hawaii at Manoa, USA<br>
 [Simone Mestici](https://link) Sapienza University of Rome<br>
 [Hail S. Kelebek](https://link) University of Oxford<br>
@@ -210,3 +212,6 @@ Use `--daily` mode to enable electron density profiles and vTEC<br>
 The `--profiles` flag requires `--daily` to be set<br>
 Higher F10.7 values represent more active solar conditions<br>
 Processing time increases significantly with resolution and when using `--daily` mode<br>
+
+## Acknowledgements
+tba
