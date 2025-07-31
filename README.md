@@ -1,6 +1,6 @@
 <img width="200" height="200" src="https://.png" alt="Black circle " title="PyIRI Logo" style="float:left;">
 
-# PyIRIDocker
+# PyIRIDocker 
 A docker version of PyIRI - A Python implementation of the International Reference Ionosphere (IRI) model that evaluates the electron density and associated ionospheric parameters on the entire given global grid and for the entire day simultaneously.
 
 This is a Docker version of PyIRI developeed by Victoriya V. Forsythe https://github.com/victoriyaforsythe : [PyIRI Main Repository](https://github.com/victoriyaforsythe/PyIRI)<br>
@@ -13,7 +13,7 @@ PyIRI info:<br>
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8235173.svg)](https://doi.org/10.5281/zenodo.8235173)
 [![Coverage Status](https://coveralls.io/repos/github/victoriyaforsythe/PyIRI/badge.svg?branch=main)](https://coveralls.io/github/victoriyaforsythe/PyIRI?branch=main)
 
-# 2025 NASA Heliolab Ionosphere - Thermosphere Team<br> 
+## 2025 NASA Heliolab Ionosphere - Thermosphere Team<br> 
 
 [Thomas Trikalinos](https://vivo.brown.edu/display/ttrikali) Center for Evidence-based Medicine, Brown University, Providence, USA<br>
 [Joel Kuiper](https://joelkuiper.eu/) Vortext Systems, Groningen, Netherlands<br>
@@ -31,4 +31,27 @@ File Structure:<br>
 + `pyiri_year_plot.py` (Generates plots with daily resolution similar to PyIRI_year_run.ipynb)<br>
 + `pyiri_year_daily.py` (Generates plots similar to PyIRI_year_run.ipynb showing F10.7 input and NmF2 output)<br>
               
+## Run instructions
 
+# Dockerhub
+```
+docker run -it angrycoffeemonster/pyiridocker:101
+```
+
+# Pull repo & build locally 
+```
+git clone https://github.com/h21k/PyIRIDocker.git
+cd PyIRIDocker
+docker build -t pyiridocker .
+```
+
+# Helpfile
+```
+docker run -it --rm pyiridocker python pyiri.py --help
+```
+
+# 1.0 Single Location Examples
+```
+docker run -it --rm -v ~/pyiri_output:/app/output pyiridocker \
+  python pyiri.py --lat 40.7128 --lon -74.0060
+```
