@@ -214,4 +214,5 @@ Higher F10.7 values represent more active solar conditions<br>
 Processing time increases significantly with resolution and when using `--daily` mode<br>
 
 ## Acknowledgements
-tba
+We'd like to acknowledge Andrew Smith for his valuable insights, NASA's Goddard Space Flight Center, and NASA's Jet Propulsion Laboratory.<br>
+This research product is the outcome of the Frontier Development Lab, Heliolab (FDL.ai) a partnership between NASA, Trillium technologies Inc (USA), Google Cloud, NVIDIA, and Pasteur Labs. Contract No. 80GSFC23CA040 
