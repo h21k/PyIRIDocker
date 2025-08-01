@@ -18,7 +18,7 @@ PyIRI info:<br>
 
 more info tba<br>
 
-[Linnea Wolniewicz](https://link) University of Hawaii at Manoa, USA<br>
+[Linnea Wolniewicz](https://linneawolniewicz.github.io/) University of Hawaii at Manoa, USA<br>
 [Simone Mestici](https://link) Sapienza University of Rome<br>
 [Hail S. Kelebek](https://link) University of Oxford<br>
 [Michael Vergalla](http://link) Free Flight Research Lab, USA<br>
